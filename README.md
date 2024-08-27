@@ -21,4 +21,5 @@ flowchart LR
     RXs(RXs) --> E2RXs(E2RXs)
     E2RXs(E2RXs) --> I2RXs(I2RXs)
     I2RXs(I2RXs) --> RallS(RallS)
+    RallS(RallS) --> Sn(SN)
 
