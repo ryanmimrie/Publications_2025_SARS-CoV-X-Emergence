@@ -4,23 +4,4 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 
 ## Structure
 
-Compartments may be hovered over for a more detailed description.
-```mermaid
-classDiagram
-    Susceptible <|-- R2s
-    Susceptible <|-- RXs
-    Susceptible <|-- Ralls
-    Animal : +naive
-    Animal : +unvaccinated
-    class R2s{
-        +natural immunity: SARS-2
-        +unvaccinated
-    }
-    class RXs{
-        +natural immunity: SARS-X
-        +unvaccinated
-    }
-    class Ralls{
-        +natural immunity: SARS-2 & SARS-X
-        +unvaccinated
-    }
+<img src="https://github.com/ryanmimrie/Drosophilidae_Virus_Phylogenetic_Correlations/blob/main/img/logo.png" width="200" alt="Logo" style="display: block; margin: auto;">
