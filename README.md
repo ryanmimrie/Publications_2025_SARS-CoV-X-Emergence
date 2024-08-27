@@ -11,4 +11,4 @@ flowchart LR
     E:2s((E2s)) --> I:2s((I:2s))
     I:2s((I2s)) --> R:2s((R:2s))
     R:2s((R2s)) --> S((S))
-    R:2s((:R2s)) --> E:XR2s((E:XR2s))
+    R:2s((:R2s)) --> EXR2s((EX<br>R2s))
