@@ -11,6 +11,4 @@ flowchart LR
     E((E)) --> I((I))
     I((I)) --> R((R))
     R((R)) --> S((S))
-    
-    classDef node fill:#f9f,stroke:#333,stroke-width:2px;
     class S,E,I,R node;
