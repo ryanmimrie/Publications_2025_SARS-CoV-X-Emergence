@@ -7,7 +7,7 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 Compartments may be hovered over for a more detailed description.
 ```mermaid
 flowchart LR
-    Sn(S<sub>N<\sub>) --> E2s(E2s)
+    Sn(S<sup>N</sup>) --> E2s(E2s)
     E2s(E2s) --> I2s(I2s)
     I2s((I2s)) --> R2s(R2s)
     R2s(R2s) --> S(S)
