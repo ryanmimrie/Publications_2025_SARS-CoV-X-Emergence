@@ -18,4 +18,7 @@ flowchart LR
     R2s(R2s) --> EXR2s(EXR2s)
     EXR2s(EXR2s) --> IXR2s(IXR2s)
     IXR2s(IXR2s) --> RallS(RallS)
+    RXs(RXs) --> E2RXs(E2RXs)
+    E2RXs(E2RXs) --> I2RXs(I2RXs)
+    I2RXs(I2RXs) --> RallS(RallS)
 
