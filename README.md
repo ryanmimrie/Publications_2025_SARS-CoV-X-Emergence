@@ -8,6 +8,6 @@ Compartments may be hovered over for a more detailed description.
 ```mermaid
 flowchart LR
     S((S)) --> E((E<sub>S</sub>))
-    E((E)) --> I((I))
+    E((E<sub>S</sub>)) --> I((I))
     I((I)) --> R((R))
     R((R)) --> S((S))
