@@ -5,4 +5,4 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 ## Structure
 
 Compartments may be hovered over for a more detailed description.
-<kbd> <br> Title <br> </kbd>[Link]
+<kbd> <br> Title <br> </kbd>
