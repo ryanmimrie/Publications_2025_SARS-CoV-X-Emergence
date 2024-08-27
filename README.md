@@ -6,24 +6,26 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 
 Compartments may be hovered over for a more detailed description.
 ```mermaid
-erDiagram
-    SIR {
-        SUSCEPTIBLE ||--o{ INFECTED : "becomes"
-        INFECTED ||--o{ RECOVERED : "recovers"
-        RECOVERED ||--o{ SUSCEPTIBLE : "loses immunity"
+classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
     }
-
-    SIR {
-        SUSCEPTIBLE {
-            int id
-            int count
-        }
-        INFECTED {
-            int id
-            int count
-        }
-        RECOVERED {
-            int id
-            int count
-        }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
     }
