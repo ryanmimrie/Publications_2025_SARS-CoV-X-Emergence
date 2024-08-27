@@ -5,6 +5,7 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 ## Structure
 
 Compartments may be hovered over for a more detailed description.
-
-<img src="https://github.com/ryanmimrie/Publications-2024-Drosophilidae-Virus-Phylogenetic-Correlations/blob/main/img/logo.png" alt="Alt text for image" title="This is a very long description of the contents of a single compartment in my SEIR model." width="200">
-<img src="https://github.com/ryanmimrie/Publications-2024-Drosophilidae-Virus-Phylogenetic-Correlations/blob/main/img/logo.png" alt="Alt text for image" title="This is a very long description of the contents of another compartment in my SEIR model." width="200">
+<details>
+  <summary>Hover over me!</summary>
+  <p>This text is revealed when you click on the summary above.</p>
+</details>
