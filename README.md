@@ -4,4 +4,4 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 
 ## Structure
 
-<img src="https://github.com/ryanmimrie/Drosophilidae_Virus_Phylogenetic_Correlations/blob/main/img/logo.png" width="200" alt="Logo" style="display: block; margin: auto;">
+<img src="https://github.com/ryanmimrie/Publications-2024-SARSX-Emergence-Modeling/blob/main/img/Model%20Structure.png" width="200" alt="Logo" style="display: block; margin: auto;">
