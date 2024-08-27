@@ -11,4 +11,3 @@ flowchart LR
     E((E)) --> I((I))
     I((I)) --> R((R))
     R((R)) --> S((S))
-    class S,E,I,R node;
