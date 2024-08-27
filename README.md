@@ -11,4 +11,8 @@ flowchart LR
     E2s(E2s) --> I2s(I2s)
     I2s((I2s)) --> R2s(R2s)
     R2s(R2s) --> Sn(SN)
+    Sn(SN) --> EXs(EXs)
+    EXs(EXs) --> IXs(IXs)
+    IXs((IXs)) --> RXs(RXs)
+    RXs(RXs) --> Sn(SN)
     R2s(R2s) --> EXR2s(EXR2s)
