@@ -1,5 +1,5 @@
 # SARS-CoV-X Emergence Modeling
-This repository contains data and code used in Imrie et al., (2024) "Changes in population immunity reduce the likelihood of emergence of novel zoonotic coronaviruses."
+This repository contains data, code, and animated visualisations from Imrie et al., (2024) "Changes in population immunity reduce the likelihood of emergence of novel zoonotic coronaviruses."
 
 ## Model Structure
 In this extended SEIR model, each host immune group is given separate EIR compartments for each virus. This allows immune groups to vary both in their probability of infection, and their propability of infection-related mortality for each virus.<br><br>
