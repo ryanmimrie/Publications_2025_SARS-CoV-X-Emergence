@@ -24,4 +24,4 @@ Compartment names are constructed as Compartment Type + Virus + (Immune Group). 
 <img src="https://github.com/ryanmimrie/Publications-2024-SARSX-Emergence-Modeling/blob/main/img/Model%20Structure.png" alt="Model Structure" style="display: block; margin: auto;">
 
 ## Population Structure
-Social and demographic data have been used to represent the population of Scotland over a 10-year modeling period.
+Social and demographic data have been used to provide a dynamic representation of the population of Scotland over a 10-year modeling period.
