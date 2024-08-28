@@ -2,7 +2,7 @@
 This repository contains data, code, and animated visualisations from Imrie et al., (2024) "Changes in population immunity reduce the likelihood of emergence of novel zoonotic coronaviruses."
 
 ## Model Structure
-In this extended SEIR model, each host immune group is given separate EIR compartments for each virus. This allows immune groups to vary both in their probability of infection, and their propability of infection-related mortality for each virus.<br><br>
+In this extended SEIR model, each host immune group is given separate EIR compartments for each virus. This allows immune groups to vary not only in their probability of infection, but also their propability of infection-related mortality for each virus.<br><br>
 Compartment names are constructed as Compartment Type + Virus + (Immune Group) with the following categories:
 #### Compartment Type
 - `S`: naive and uninfected..
