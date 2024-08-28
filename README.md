@@ -3,7 +3,7 @@ This repository contains data, code, and animated visualisations from Imrie et a
 
 ## Model Structure
 In this extended SEIR model, each host immune group is given separate EIR compartments for each virus. This allows immune groups to vary not only in their probability of infection, but also their propability of infection-related mortality for each virus.<br><br>
-Compartment names are constructed as Compartment Type + Virus + (Immune Group) with the following categories:
+Compartment names are constructed as Compartment Type + Virus + (Immune Group). For example, hosts that are vaccinated and infected with SARS-CoV-2 can be found in compartment I2(V). Categories are as follows:
 #### Compartment Type
 - `S`: naive and uninfected..
 - `V`: vaccinated and uninfected.
