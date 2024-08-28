@@ -22,3 +22,6 @@ Compartment names are constructed as Compartment Type + Virus + (Immune Group) w
 - `RXV`: vaccinated with natural immunity to SARS-CoV-X
 
 <img src="https://github.com/ryanmimrie/Publications-2024-SARSX-Emergence-Modeling/blob/main/img/Model%20Structure.png" alt="Model Structure" style="display: block; margin: auto;">
+
+## Population Structure
+Social and demographic data have been used to represent the population of Scotland over a 10-year modeling period.
