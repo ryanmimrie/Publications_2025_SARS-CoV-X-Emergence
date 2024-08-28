@@ -3,8 +3,8 @@ This repository contains data and code used in Imrie et al., (2024) "Changes in 
 
 ## Model Structure
 In this extended SEIR model, each host immune group (naive, vaccinated, natural, and natural & vaccinated) are given separate EIR compartments for each virus. This allows immune groups to vary both in their probability of infection, and their propability of infection-related mortality for each virus.<br>
-Compartment names are constructed as Type + Virus + (Immune Group) with the following categories:
-#### Type
+Compartment names are constructed as Compartment Type + Virus + (Immune Group) with the following categories:
+#### Compartment Type
 - `S`: naive and uninfected..
 - `V`: vaccinated and uninfected.
 - `E`: exposed (i.e., begun incubation).
@@ -13,7 +13,7 @@ Compartment names are constructed as Type + Virus + (Immune Group) with the foll
 #### Virus
 - `2`: SARS-CoV-2.
 - `X`: SARS-CoV-X.
-#### Host
+#### Immune Group
 - `S`: unvaccinated
 - `V`: vaccinated
 - `R2S`: unvaccinated and recovered from SARS-CoV-2
