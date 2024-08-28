@@ -24,7 +24,7 @@ Compartment names are constructed as Compartment Type + Virus + (Immune Group). 
 <img src="https://github.com/ryanmimrie/Publications-2024-SARSX-Emergence-Modeling/blob/main/img/Model%20Structure.png" alt="Model Structure" style="display: block; margin: auto;">
 
 ### Animated Model Run
-The following is an animation of a single model run with SARS-CoV-X parameterised as SARS-CoV-1. The lightness of compartments signify how many individuals are present, and the lightness of arrows represent how active a transition is at each timepoint in the model run. The total number of infections, calculated as a (%) of the total population present in the "I" compartments of each virus at a given timepoint, are shown in the right.
+The following is an animation of a single model run with SARS-CoV-X parameterised as SARS-CoV-1. The lightness of compartments signify how many individuals are present, and the lightness of arrows represent how active a transition is at each timepoint in the model run. The total number of infections, calculated as the (%) of the population present in the "I" compartments of each virus at a given timepoint, is shown in the right.
 
 ## Population Structure
 Social and demographic data have been used to provide a dynamic representation of the population of Scotland over a 10-year modeling period.
