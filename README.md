@@ -16,9 +16,9 @@ Compartment names are constructed as Compartment Type + Virus + (Immune Group) w
 #### Immune Group
 - `S`: unvaccinated
 - `V`: vaccinated
-- `R2S`: unvaccinated and recovered from SARS-CoV-2
-- `RXS`: unvaccinated and recovered from SARS-CoV-X
-- `R2V`: vaccinated and recovered from SARS-CoV-2
-- `RXV`: vaccinated and recovered from SARS-CoV-X
+- `R2S`: unvaccinated with natural immunity to SARS-CoV-2
+- `RXS`: unvaccinated with natural immunity to SARS-CoV-X
+- `R2V`: vaccinated with natural immunity to SARS-CoV-2
+- `RXV`: vaccinated with natural immunity to SARS-CoV-X
 
 <img src="https://github.com/ryanmimrie/Publications-2024-SARSX-Emergence-Modeling/blob/main/img/Model%20Structure.png" alt="Model Structure" style="display: block; margin: auto;">
