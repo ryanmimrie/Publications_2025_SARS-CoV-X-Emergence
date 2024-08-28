@@ -7,7 +7,7 @@ Compartment names are constructed as Compartment Type + Virus + (Immune Group) w
 #### Compartment Type
 - `S`: naive and uninfected..
 - `V`: vaccinated and uninfected.
-- `E`: exposed (i.e., begun incubation).
+- `E`: exposed (i.e., incubating).
 - `I`: infectious.
 - `R`: recovered.
 #### Virus
