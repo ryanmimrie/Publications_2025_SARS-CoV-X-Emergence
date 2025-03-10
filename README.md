@@ -48,3 +48,6 @@ Numerical values for contact matrices can be found in data/contact_matrices.rds.
 
 #### Post-COVID (COMIX follow-up)
 <img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact_Rates_PostPandemic.jpg" alt="Contact Matrices" style="display: block; margin: auto;">
+
+## References
+Please refer to Supplementary Table 7 in Imrie & Bissett et al., (2025) for references and credit for all data sources.
