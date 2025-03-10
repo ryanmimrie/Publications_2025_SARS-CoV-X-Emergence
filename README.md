@@ -30,6 +30,8 @@ The following is an animation of the model run used for Figure 2A. Here, SARS-Co
 ## Temporally-varying Parameters
 ### Contact Rates
 
+<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact%20Rates.jpg" alt="Model Structure" style="display: block; margin: auto;">
+
 ### Vaccination Rates
 
 ### SARS-CoV-2 Variant Prevalences
