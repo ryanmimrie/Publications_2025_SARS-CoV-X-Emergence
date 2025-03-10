@@ -39,5 +39,5 @@ Numerical values from these plots can be found in the data directory. "First Dos
 
 ### Contact Rates
 Numerical values for contact matrices can be found in data/contact_matrices.rds. The data in this file represents per-capita contact rates arranged in a 3D array of 16 x 16 contact matrices for each day of the model starting at 2020-02-23 (YYYY-MM-DD).
-<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact_Rates.jpg" alt="Contact Matrices" style="display: block; margin: auto;">
+<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact_Rates_Pre.jpg" alt="Contact Matrices" style="display: block; margin: auto;">
 
