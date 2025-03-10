@@ -22,7 +22,7 @@ Compartment names are constructed as Compartment Type + Virus + <sub>Immune Grou
 - `VI`: vaccinated (1 dose protective phenotype)
 - `VII`: vaccinated (2 dose protective phenotype)
 
-<img src="https://github.com/ryanmimrie/Publications-2025-SARS-CoV-X-Emergence/blob/main/img/Model%20Structure.png" alt="Model Structure" style="display: block; margin: auto;">
+<img src="https://github.com/ryanmimrie/Publications-2025-SARS-CoV-X-Emergence/blob/main/img/Model%20Structure.jpg" alt="Model Structure" style="display: block; margin: auto;">
 
 ### Animated Model Run
 The following is an animation of the model run used for Figure 2A. Here, SARS-CoV-X is parameterised as SARS-CoV, and a 100% uptake preventative vaccination program begins 30 days before the first SARS-CoV-X case. This particular model run is chosen to highlight the co-circulatory dynamics of the model, however SARS-CoV-X emergence is not the most likely outcome under these conditions. The lightness of compartments signify how many individuals are present, and the lightness of arrows represent how active a transition is at each timepoint in the model run. The total number of infections, calculated as the (%) of the population present in the "I" compartments of each virus at a given timepoint, is shown along the bottom of the animation.
