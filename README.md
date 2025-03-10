@@ -27,3 +27,10 @@ Compartment names are constructed as Compartment Type + Virus + <sub>Immune Grou
 ### Animated Model Run
 The following is an animation of the model run used for Figure 2A. Here, SARS-CoV-X is parameterised as SARS-CoV, and a 100% uptake preventative vaccination program begins 30 days before the first SARS-CoV-X case. This particular model run is chosen to highlight the co-circulatory dynamics of the model, however SARS-CoV-X emergence is not the most likely outcome under these conditions. The colour and lightness signifies how many individuals are present (compartments), and how active a transition is (arrows) at each timepoint in the model run. The total number of infections, calculated as the (%) of the population present in the "I" compartments of each virus at a given timepoint, is shown along the bottom of the animation.
 
+## Temporally-varying Parameters
+### Contact Rates
+
+### Vaccination Rates
+
+### SARS-CoV-2 Variant Prevalences
+
