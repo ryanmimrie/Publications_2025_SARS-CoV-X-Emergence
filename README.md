@@ -39,6 +39,12 @@ Numerical values from these plots can be found in the data directory. "First Dos
 
 ### Contact Rates
 Numerical values for contact matrices can be found in data/contact_matrices.rds. The data in this file represents per-capita contact rates arranged in a 3D array of 16 x 16 contact matrices for each day of the model starting at 2020-02-23 (YYYY-MM-DD).
-#### Pre-pandemic (POLYMOD)
+##### Pre-pandemic (POLYMOD)
 <img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact_Rates_PrePandemic.jpg" alt="Contact Matrices" style="display: block; margin: auto;">
 
+##### 2020-03-29 to 2021-11-28 (COMIX)
+<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact_Rates_DuringPandemic.jpg" alt="Contact Matrices" style="display: block; margin: auto;">
+
+
+##### Post-COVID (COMIX follow-up)
+<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Contact_Rates_PostPandemic.jpg" alt="Contact Matrices" style="display: block; margin: auto;">
