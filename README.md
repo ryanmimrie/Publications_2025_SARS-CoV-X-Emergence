@@ -34,5 +34,7 @@ Numerical values for the following matrices can be found in data/contact_matrice
 
 ### Vaccination Rates
 
+<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Vaccination_Rates.jpg" alt="Vaccination Rates" style="display: block; margin: auto;">
+
 ### SARS-CoV-2 Variant Prevalences
 
