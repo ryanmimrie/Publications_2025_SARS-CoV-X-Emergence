@@ -38,3 +38,5 @@ Numerical values from these plots can be found in the data directory. "First Dos
 <img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/Vaccination_Rates.jpg" alt="Vaccination Rates" style="display: block; margin: auto;">
 
 ### SARS-CoV-2 Variant Prevalences
+Numerical values from this plot are available in data/SARS2_variant_prevalences.csv.
+<img src="https://github.com/ryanmimrie/Publications_2025_SARS-CoV-X-Emergence/blob/main/img/SARS2_Prevalences.jpg" alt="SARS-CoV-2 Prevalences" style="display: block; margin: auto;">
