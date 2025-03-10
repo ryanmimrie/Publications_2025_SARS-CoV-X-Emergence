@@ -8,7 +8,7 @@ This repository contains data, code, and additional visualisations from Imrie & 
 
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
-Compartment names are constructed as Compartment Type + Virus + <sub>Immune Group</sub>. For example, hosts that are infectious ("I") with SARS-CoV-2 ("2"), have recovered from SARS-CoV-X ("RX") and been vaccinated once ("VI") can be found in compartment `I2<sub>RX,VI</sub>`. Symbols used in compartment names are as follows:
+Compartment names are constructed as Compartment Type + Virus + <sub>Immune Group</sub>. For example, hosts that are infectious ("I") with SARS-CoV-2 ("2"), have recovered from SARS-CoV-X ("RX") and been vaccinated once ("VI") can be found in compartment I2<sub>RX,VI</sub>. Symbols used in compartment names are as follows:
 #### Compartment Type
 - `S`: susceptible.
 - `E`: exposed.
