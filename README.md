@@ -24,6 +24,27 @@ This repository contains data, code, and additional visualisations from Imrie & 
 ### System Requirements
 ![RAM](https://img.shields.io/badge/minimum%20RAM-8GB-important)
 
+### Installation
+
+To run this project, you need to have R and RStudio installed:
+
+- [Download R](https://cran.r-project.org/)
+- [Download RStudio](https://posit.co/download/rstudio-desktop/)
+
+Within RStudio you can install the required packages using the following R commands:
+
+```r
+install.packages('devtools')
+
+devtools::install_github('mrc-ide/odin')
+devtools::install_github('mrc-ide/dust')
+devtools::install_github('mrc-ide/odin.dust')
+
+install.packages('tidyverse')
+install.packages('socialmixr')
+install.packages('abind')
+```
+
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
 Compartment names are constructed as Compartment Type + Virus + <sub>Immune Group</sub>. For example, hosts that are infectious ("I") with SARS-CoV-2 ("2"), have recovered from SARS-CoV-X ("RX") and been vaccinated once ("VI") can be found in compartment I2<sub>RX,VI</sub>. Symbols used in compartment names are as follows:
