@@ -49,7 +49,7 @@ Typical install time on a normal desktop computer: 3-5 minutes.
 
 ## Demo
 ### Instructions
-The file `models//Dust_Script.R` contains an example model run of the SARS-CoV-X emergence cocirculation model which can be run manually within an integrated development environment (IDE) such as RStudio. Please ensure that the setwd() command on line 49 correctly point to a directory containing the model and data subdirectories from this repository.
+The file `models//Dust_Script.R` contains an example model run of the SARS-CoV-X emergence cocirculation model which can be run manually within an integrated development environment (IDE) such as RStudio. Please ensure that the setwd() command on line 49 correctly point to a directory containing the model and data subdirectories from this repository. The script can then be run by selecting all code with **Ctrl + A** (or **Command + A** on Mac) and executing it with **Ctrl + Enter** (or **Command + Enter** on Mac).
 
 In section 1 of this script, parameters for the population of Scotland and the phenotypes of SARS-CoV-2 are loaded from data files, and functions for age-stratification of SARS-CoV-X phenotypes and the preventative vaccination program are defined.
 
@@ -58,7 +58,7 @@ In section 2 the phenotypes of SARS-CoV-X and the conditions of the prevenative 
 For the purposes of this example, the number of runs for each scenario, stored in parameters$model_iterations, has been set to 250.
 
 ### Expected Outcome
-
+This demo will print to console a summary of the key parameters of each scenario along with the number of emergence events and the number of trials. As this is a stochastic model, the exact number of emergences will vary between runs, but should be higher (~30) in scenario 1 than in scenario two (~2).
 
 ### Expected Runtime
 This script will typically take 5-10 minutes to run on modern hardware (~2-5 minutes for the initial Odin compilation and then 3-5 minutes for the 250 trials of two scenarios).
