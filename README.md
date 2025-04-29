@@ -8,18 +8,14 @@ This repository contains data, code, and additional visualisations from Imrie & 
 
 ### System Requirements
 
-![R](https://img.shields.io/badge/R-%3E%3D%204.0.0-blue)
-![Dependencies](https://img.shields.io/badge/dependencies-listed-important)
+![R Version](https://img.shields.io/badge/R-4.5.0-blue)
+![devtools](https://img.shields.io/badge/devtools-2.4.5-ff69b4)
+![tidyverse](https://img.shields.io/badge/tidyverse-2.0.0-blue)
+![socialmixr](https://img.shields.io/badge/socialmixr-0.4.0-lightgreen)
+![odin](https://img.shields.io/badge/odin-1.5.11-yellow)
+![dust](https://img.shields.io/badge/dust-0.15.3-orange)
+![odin.dust](https://img.shields.io/badge/odin.dust-0.3.13-red)
 
-- **R** (version 4.0.0 or later)
-- **devtools**
-- **tidyverse**
-- **socialmixr**
-- **abind**
-- **parallel** (base R package)
-- **odin**
-- **dust**
-- **odin.dust**
 
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
