@@ -45,7 +45,7 @@ install.packages('socialmixr')
 install.packages('abind')
 ```
 
-Typical install time 3-5 minutes.
+Typical install time on a normal desktop computer: 3-5 minutes.
 
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
