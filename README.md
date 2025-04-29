@@ -6,6 +6,16 @@ This repository contains data, code, and additional visualisations from Imrie & 
 - `models`: Contains Odin and Odin.Dust R scripts for the epidemiological model
 - `img`: Contains images and animations used in this repository
 
+### System Requirements
+- **R** (version 4.0.0 or later)
+- **devtools**
+- **tidyverse**
+- **socialmixr**
+- **abind**
+- **odin**
+- **dust**
+- **odin.dust**
+
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
 Compartment names are constructed as Compartment Type + Virus + <sub>Immune Group</sub>. For example, hosts that are infectious ("I") with SARS-CoV-2 ("2"), have recovered from SARS-CoV-X ("RX") and been vaccinated once ("VI") can be found in compartment I2<sub>RX,VI</sub>. Symbols used in compartment names are as follows:
