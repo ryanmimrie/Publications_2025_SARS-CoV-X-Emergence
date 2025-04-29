@@ -7,11 +7,16 @@ This repository contains data, code, and additional visualisations from Imrie & 
 - `img`: Contains images and animations used in this repository
 
 ### System Requirements
+
+![R](https://img.shields.io/badge/R-%3E%3D%204.0.0-blue)
+![Dependencies](https://img.shields.io/badge/dependencies-listed-important)
+
 - **R** (version 4.0.0 or later)
 - **devtools**
 - **tidyverse**
 - **socialmixr**
 - **abind**
+- **parallel** (base R package)
 - **odin**
 - **dust**
 - **odin.dust**
