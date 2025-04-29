@@ -8,7 +8,7 @@ This repository contains data, code, and additional visualisations from Imrie & 
 
 ## Model Specifications
 ### Platform Support
-![Windows](https://img.shields.io/badge/Windows-blue?logo=windows)
+![Windows](https://img.shields.io/badge/Windows-blue?logo=microsoftwindows)
 ![macOS](https://img.shields.io/badge/macOS-black?logo=apple)
 ![Linux](https://img.shields.io/badge/Linux-grey?logo=linux)
 
