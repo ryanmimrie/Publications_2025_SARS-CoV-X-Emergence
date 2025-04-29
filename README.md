@@ -6,8 +6,13 @@ This repository contains data, code, and additional visualisations from Imrie & 
 - `models`: Contains Odin and Odin.Dust R scripts for the epidemiological model
 - `img`: Contains images and animations used in this repository
 
-### System Requirements
+## Model Specifications
+### Platform Support
+![Windows](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
+![macOS](https://img.shields.io/badge/platform-macOS-black?logo=apple)
+![Linux](https://img.shields.io/badge/platform-Linux-yellowgreen?logo=linux)
 
+### Dependencies
 ![R Version](https://img.shields.io/badge/R-4.5.0-blue)
 ![devtools](https://img.shields.io/badge/devtools-2.4.5-ff69b4)
 ![tidyverse](https://img.shields.io/badge/tidyverse-2.0.0-blue)
@@ -16,6 +21,8 @@ This repository contains data, code, and additional visualisations from Imrie & 
 ![dust](https://img.shields.io/badge/dust-0.15.3-orange)
 ![odin.dust](https://img.shields.io/badge/odin.dust-0.3.13-red)
 
+### System Requirements
+![RAM](https://img.shields.io/badge/minimum%20RAM-8GB-important)
 
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
