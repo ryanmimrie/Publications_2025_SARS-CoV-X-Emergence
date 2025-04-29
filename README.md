@@ -47,6 +47,22 @@ install.packages('abind')
 
 Typical install time on a normal desktop computer: 3-5 minutes.
 
+## Demo
+### Instructions
+The file `models//Dust_Script.R` contains an example model run of the SARS-CoV-X emergence cocirculation model which can be run manually within an integrated development environment (IDE) such as RStudio. Please ensure that the setwd() command on line 49 correctly point to a directory containing the model and data subdirectories from this repository.
+
+In section 1 of this script, parameters for the population of Scotland and the phenotypes of SARS-CoV-2 are loaded from data files, and functions for age-stratification of SARS-CoV-X phenotypes and the preventative vaccination program are defined.
+
+In section 2 the phenotypes of SARS-CoV-X and the conditions of the prevenative vaccination program are defined in the "scenarios" object. This example defines two exposure scenarios of a SARS-CoV-X virus with a mean incubation period of 3 days; a mean infectious period of 7 days; an R0 of 2; and a natural and vaccine-derived cross-reactivity of 67%. The prevenative vaccination program achieves an uptake of either 0% or 100% and begins 30 days before the first SARS-CoV-X case. Each scenario is then run through the Odin model, with the vaccination program and age-stratified phenotypes calculated using the functions defined in section 1, and the number of emergence events calculated and reported to the console.
+
+For the purposes of this example, the number of runs for each scenario, stored in parameters$model_iterations, has been set to 250.
+
+### Expected Outcome
+
+
+### Expected Runtime
+This script will typically take 5-10 minutes to run on modern hardware (~2-5 minutes for the initial Odin compilation and then 3-5 minutes for the 250 trials of two scenarios).
+
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
 Compartment names are constructed as Compartment Type + Virus + <sub>Immune Group</sub>. For example, hosts that are infectious ("I") with SARS-CoV-2 ("2"), have recovered from SARS-CoV-X ("RX") and been vaccinated once ("VI") can be found in compartment I2<sub>RX,VI</sub>. Symbols used in compartment names are as follows:
