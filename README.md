@@ -49,7 +49,7 @@ Typical install time on a normal desktop computer: 3-5 minutes.
 
 ## Demo
 ### Instructions
-The file `models//Dust_Script.R` contains an example model run of the SARS-CoV-X emergence cocirculation model which can be run manually within an integrated development environment (IDE) such as RStudio. Please ensure that the setwd() command on line 49 correctly point to a directory containing the model and data subdirectories from this repository. The script can then be run by selecting all code with **Ctrl + A** (or **Command + A** on Mac) and executing it with **Ctrl + Enter** (or **Command + Enter** on Mac).
+The file `models//Dust_Script.R` contains an example model run of the SARS-CoV-X emergence cocirculation model which can be run manually within an integrated development environment (IDE) such as RStudio. Please ensure that the setwd() command on line 49 correctly point to a directory containing the model and data subdirectories from this repository. The script can then be run by selecting all code with **Ctrl + A** and executing  with **Ctrl + Enter**.
 
 In section 1 of this script, parameters for the population of Scotland and the phenotypes of SARS-CoV-2 are loaded from data files, and functions for age-stratification of SARS-CoV-X phenotypes and the preventative vaccination program are defined.
 
