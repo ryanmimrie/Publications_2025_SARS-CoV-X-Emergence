@@ -8,9 +8,9 @@ This repository contains data, code, and additional visualisations from Imrie & 
 
 ## Model Specifications
 ### Platform Support
-![Windows](https://img.shields.io/badge/platform-Windows-blue?logo=windows)
-![macOS](https://img.shields.io/badge/platform-macOS-black?logo=apple)
-![Linux](https://img.shields.io/badge/platform-Linux-yellowgreen?logo=linux)
+![Windows](https://img.shields.io/badge/Windows-blue?logo=windows)
+![macOS](https://img.shields.io/badge/macOS-black?logo=apple)
+![Linux](https://img.shields.io/badge/Linux-yellowgreen?logo=linux)
 
 ### Dependencies
 ![R Version](https://img.shields.io/badge/R-4.5.0-blue)
