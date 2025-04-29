@@ -63,6 +63,12 @@ This demo will print to console a summary of the key parameters of each scenario
 ### Expected Runtime
 This script will typically take 5-10 minutes to run on modern hardware (~2-5 minutes for the initial Odin compilation and then 3-5 minutes for the 250 trials of two scenarios).
 
+### Incorporation of Different Data
+This model may be used to explore different exposure scenarios and virus phenotypes by adjusting the scenarios object on lines 251-258. The characteristics of SARS-CoV-2 and the human population can be altered by changing the values stored in the `data` files.
+
+### Reproducing Manuscript Results
+Scripts to reproduce the results of each Figure in the original manuscript can be found in `models/reproduction`. These scripts perform grid searches of parameter space by looping over large versions of the scenario object from the example model, and will take several weeks to run in serial on typical hardware.
+
 ## Model Structure
 In this extended SEIRS model, separate EIR compartments are given for each combination of host immune group and virus.<br><br>
 Compartment names are constructed as Compartment Type + Virus + <sub>Immune Group</sub>. For example, hosts that are infectious ("I") with SARS-CoV-2 ("2"), have recovered from SARS-CoV-X ("RX") and been vaccinated once ("VI") can be found in compartment I2<sub>RX,VI</sub>. Symbols used in compartment names are as follows:
