@@ -8,7 +8,7 @@
 
 # ----- 0.1. Description -------------------------------------------------------
 
-# The following script reproduces the model run from Figure 2 of the Odin
+# The following script reproduces the model run from Figure 4 of the Odin
 # Epidemiological model from Imrie & Bissett et al., (2025) "Post-pandemic
 # changes in population immunity have reduced the likelihood of emergence of
 # zoonotic coronaviruses"
